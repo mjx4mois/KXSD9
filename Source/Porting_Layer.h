@@ -30,17 +30,15 @@
 |DOUBLE  |     double           |    4 byte   |    กำ1.175e-38 ~ กำ3.402e38   |
 |---------------------------------------------------------------------------|*/
 
-
 #define  BOOL			bool
 #define  CHAR8S 		char
 #define  CHAR8U		unsigned char
 #define  INT16S			int
 #define  INT16U			unsigned int
 #define  INT32S     		long int
-#define  INT32U    		unsigned int
+#define  INT32U    		unsigned long int
 #define  FLOAT     		float
 #define  DOUBLE     		double
-
 
 
 // ----------- STATUS DEFINE ------------
