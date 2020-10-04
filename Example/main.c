@@ -23,11 +23,9 @@ Data Stack size         : 512
 
 
 #include <mega32a.h>
-
 #include <delay.h>
 #include <math.h>
-
-
+#include <datatype_Layer.h>
 #include <SENSOR_KXSD9.h>
 
 // I2C Bus functions
@@ -303,10 +301,10 @@ lcd_init(16);
 // Global enable interrupts
 #asm("sei")
 
-while (1)
-      {
-      // Place your code here          
- 	    EXAMPLE_KXSD9();       
+	while (1)
+	{
+		// Place your code here          
+		EXAMPLE_KXSD9();       
                     
-      }
+	}
 }
